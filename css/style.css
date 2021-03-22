@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{
+    font-family: Poppins ;
+}
+.bg-purple{
+    background-color: #55118E;
+}
+.started-btn{
+    border-radius: 12px;
+    background-color: white;
+    color: #55118E;
+    font-size: 14px;
+}
+.btn:focus{
+   
+    box-shadow: none !important;
+}
+.nav-link{
+opacity: 0.5 !important;
+color: #fff !important;
+font-size: 12px;
+}
+.active{
+color: #fff !important;
+opacity: unset !important
+}
+.bg-rectangle{
+    background: url(../img/rectangle.png) no-repeat ; 
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-position:bottom;
+}
+.logoes{
+    margin-top: 100px;
+}
+.bg-green{
+    background-color: #51A669;
+    margin-top: 100px;
+}
+.started-btn-purple{
+    background-color: #55118E;
+    color: #fff;
+    margin-left: 20px;
+    border-radius: 12px;
+}
+.txt-div{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.parag{
+    font-size: 26px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.title{
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.parag-2{
+    font-size: 16px;
+    color: #000;
+    opacity: 0.5;
+    line-height: 24px;
+    padding-right: 10px;
+}
+.why-txt{
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.started-btn-green{
+ background-color: #51A669;  
+ color: #fff;
+ border-radius: 12px; 
+}
+.bg-gradiant{
+    background: url(../img/gradiant.png) no-repeat ;  
+}
+.iphone{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.contact{
+    margin: 100px 0 100px 0;
+}
+.submit-btn-purple{
+    background-color: #55118E;
+    color: #fff;
+    border-radius: 8px;  
+    padding: 0 40px;
+    font-size: 16px;
+}
+input{
+    border-radius: 8px;
+    background-color: #ECECEC;
+    padding: 15px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+}
+.footer-item{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.footer-item:hover{
+    color: #fff;
+}
