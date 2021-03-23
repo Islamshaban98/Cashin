@@ -44,6 +44,7 @@ opacity: unset !important
     color: #fff;
     margin-left: 20px;
     border-radius: 12px;
+   
 }
 .txt-div{
     padding-top: 50px;
@@ -95,6 +96,7 @@ opacity: unset !important
     border-radius: 8px;  
     padding: 0 40px;
     font-size: 16px;
+    padding: 10px 20px 10px 20px;
 }
 input{
     border-radius: 8px;
@@ -112,4 +114,107 @@ input{
 }
 .footer-item:hover{
     color: #fff;
+}
+
+@media(max-width:1024px){
+    .image{
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .mobile-img{
+        display: none;
+    }
+    .logoes{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .logoes div{
+        margin-top: 50px;
+    }
+    .bg-rectangle{
+        padding-bottom: 100px;
+    }
+    .container-div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .title-size-mob{
+        font-size: 25px !important;
+        width: unset !important;
+        text-align: center;
+    }
+    .parag-size-mob{
+        font-size: 14px !important;
+    }
+    .contact-div{
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-txt{
+        font-size: 14px !important;
+        text-align: center;
+    }
+    .form-btn{
+        align-items: center;
+        justify-content: center;
+    }
+    .why-txt{
+        font-size: 25px;
+        text-align: center;
+    }
+    .payment-div{
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .nav-collaps{
+      align-items: center;
+      justify-content: center;  
+    }
+    .nav-ul li a{
+        text-align: center;
+    }
+}
+@media(max-width:425px){
+    .txt-div{
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .txt-div p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .txt-div button{
+
+        font-size: 14px;
+    }
+    .why-txt{
+        font-size: 18px;
+    }
+    .ul-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px !important;
+        margin: auto;
+    }
+    .ul-footer li {
+        margin-top: 10px;
+    }
+    .ul-footer li a{
+        font-size: 12px;
+    }
+    .logo-footer{
+       margin: auto;
+    }
+    
 }
