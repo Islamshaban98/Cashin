@@ -125,6 +125,9 @@ input{
     .mobile-img{
         display: none;
     }
+    .bg-gradiant{
+        background-position: bottom
+    }
     .logoes{
         flex-direction: column;
         align-items: center;
@@ -176,9 +179,14 @@ input{
     .nav-collaps{
       align-items: center;
       justify-content: center;  
+      padding: 20px 0 20px 0;
     }
-    .nav-ul li a{
+    .nav-ul {
         text-align: center;
+        margin-left: unset !important;
+    }
+    .nav-ul li {
+        padding: 0 !important;
     }
 }
 @media(max-width:425px){
@@ -221,6 +229,7 @@ input{
     }
     .hosted-txt{
         font-size: 20px !important;
+        text-align: center;
     }
     
 }
