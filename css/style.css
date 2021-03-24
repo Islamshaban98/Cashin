@@ -288,4 +288,7 @@ input{
     .padding-txt{
         padding-inline: 20px;
     }
+    .footer-item{
+        padding-left: 0px !important;
+    }
 }
