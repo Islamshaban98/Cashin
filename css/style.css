@@ -115,6 +115,10 @@ input{
 .footer-item:hover{
     color: #fff;
 }
+.appstoreImg{
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
 @media(max-width:1024px){
     .image{
@@ -213,9 +217,9 @@ input{
     .ul-footer{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
-        text-align: center;
+        /* text-align: center; */
         margin-left: 0px !important;
         margin: auto;
     }
@@ -226,8 +230,8 @@ input{
         font-size: 12px;
     }
     .logo-footer{
-       margin: auto;
-       align-self: center;
+       /* margin: auto; */
+       align-self: flex-start;
        margin-bottom: 20px;
     }
     .parag{
@@ -246,6 +250,17 @@ input{
     }
     .form-btn{
         margin-left: 0% !important;
+        align-self: flex-start;
+       
+    }
+    .social-btn{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .appstoreImg{
+        margin-left: 0px;
     }
     .contact{
         margin: 50px 0 50px 0;
@@ -270,6 +285,5 @@ input{
     }
     .started-btn-green{
         padding: 10px 15px 10px 15px;
-        
     }
 }
