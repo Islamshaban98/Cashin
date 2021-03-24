@@ -12,7 +12,6 @@ body{
     font-size: 14px;
 }
 .btn:focus{
-   
     box-shadow: none !important;
 }
 .nav-link{
@@ -44,7 +43,7 @@ body{
     color: #fff;
     margin-left: 20px;
     border-radius: 12px;
-   
+    padding: 10px 20px 10px 20px;
 }
 .txt-div{
     padding-top: 50px;
@@ -81,7 +80,8 @@ body{
     border-radius: 12px; 
 }
 .bg-gradiant{
-    background: url(../img/gradiant.png) no-repeat ;  
+    background: url(../img/gradiant.png) no-repeat ; 
+    background-position: bottom; 
 }
 .iphone{
     margin-top: 50px;
@@ -208,7 +208,7 @@ input{
         font-size: 14px;
     }
     .why-txt{
-        font-size: 18px;
+        font-size: 20px;
     }
     .ul-footer{
         display: flex;
@@ -232,9 +232,10 @@ input{
     }
     .parag{
         font-size: 18px !important;
+        
     }
     .hosted-txt{
-        font-size: 20px !important;
+        font-size: 18px !important;
         text-align: center;
     }
     .col-nav{
@@ -258,5 +259,17 @@ input{
     }
     .parag-2{
         font-size: 14px;
+        padding: 0px 20px 0 20px;
+    }
+    .started-btn-purple{
+        padding: 10px 15px 10px 15px;
+    }
+    .submit-btn-purple{
+        padding: 10px 15px 10px 15px;
+
+    }
+    .started-btn-green{
+        padding: 10px 15px 10px 15px;
+        
     }
 }
