@@ -16,13 +16,13 @@ body{
     box-shadow: none !important;
 }
 .nav-link{
-opacity: 0.5 !important;
-color: #fff !important;
-font-size: 12px;
+    opacity: 0.5 !important;
+    color: #fff !important;
+    font-size: 12px;
 }
 .active{
-color: #fff !important;
-opacity: unset !important
+    color: #fff !important;
+    opacity: unset !important
 }
 .bg-rectangle{
     background: url(../img/rectangle.png) no-repeat ; 
@@ -76,9 +76,9 @@ opacity: unset !important
     text-align: center;
 }
 .started-btn-green{
- background-color: #51A669;  
- color: #fff;
- border-radius: 12px; 
+    background-color: #51A669;  
+    color: #fff;
+    border-radius: 12px; 
 }
 .bg-gradiant{
     background: url(../img/gradiant.png) no-repeat ;  
@@ -145,6 +145,9 @@ input{
     align-items: center;
     text-align: center;
     }
+    .container-div div{
+        margin-top: 20px;
+    }
     .title-size-mob{
         font-size: 25px !important;
         width: unset !important;
@@ -188,6 +191,7 @@ input{
     .nav-ul li {
         padding: 0 !important;
     }
+  
 }
 @media(max-width:425px){
     .txt-div{
@@ -223,6 +227,8 @@ input{
     }
     .logo-footer{
        margin: auto;
+       align-self: center;
+       margin-bottom: 20px;
     }
     .parag{
         font-size: 18px !important;
@@ -231,5 +237,26 @@ input{
         font-size: 20px !important;
         text-align: center;
     }
-    
+    .col-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-btn{
+        margin-left: 0% !important;
+    }
+    .contact{
+        margin: 50px 0 50px 0;
+    }
+    input{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .privacy-div p{
+        padding-right: 0px !important;
+    }
+    .parag-2{
+        font-size: 14px;
+    }
 }
