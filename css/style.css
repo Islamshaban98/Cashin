@@ -78,6 +78,7 @@ body{
     background-color: #51A669;  
     color: #fff;
     border-radius: 12px; 
+    padding: 10px 20px 10px 20px;
 }
 .bg-gradiant{
     background: url(../img/gradiant.png) no-repeat ; 
@@ -117,7 +118,7 @@ input{
 }
 .appstoreImg{
     margin-left: 20px;
-    margin-top: 20px;
+   
 }
 
 @media(max-width:1024px){
@@ -230,7 +231,6 @@ input{
         font-size: 12px;
     }
     .logo-footer{
-       /* margin: auto; */
        align-self: flex-start;
        margin-bottom: 20px;
     }
@@ -251,7 +251,6 @@ input{
     .form-btn{
         margin-left: 0% !important;
         align-self: flex-start;
-       
     }
     .social-btn{
         flex-direction: column;
@@ -261,6 +260,7 @@ input{
     }
     .appstoreImg{
         margin-left: 0px;
+        margin-top: 20px;
     }
     .contact{
         margin: 50px 0 50px 0;
@@ -281,9 +281,11 @@ input{
     }
     .submit-btn-purple{
         padding: 10px 15px 10px 15px;
-
     }
     .started-btn-green{
         padding: 10px 15px 10px 15px;
+    }
+    .padding-txt{
+        padding-inline: 20px;
     }
 }
