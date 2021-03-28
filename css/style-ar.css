@@ -6,3 +6,16 @@
     right: 0;
     background-position:bottom; 
 }
+.appstoreImg {
+    margin-right: 20px;
+}
+@media (max-width: 425px){
+    .form-btn {
+        margin-right: 0% !important;
+        align-self: end;
+    }
+    .appstoreImg {
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+}
