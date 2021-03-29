@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 body {
   font-family: Poppins;
+  overflow-x: hidden;
 }
 .__fit_cover {
   object-fit: cover;
@@ -148,6 +149,9 @@ input {
 .footer-item:hover {
   color: #fff;
 }
+.__m_20 {
+    margin: 0 20px;
+}
 .__ml_20 {
   margin-left: 20px;
 }
@@ -230,7 +234,10 @@ input {
 }
 @media (max-width: 425px) {
   .navbar-collapse div:last-child {
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+  .navbar-collapse div:last-child > div {
+    margin-bottom: .5rem;
   }
   .btn {
     width: 100%;
@@ -310,6 +317,7 @@ input {
   }
   .social-btn div:last-child {
     margin-left: 0;
+    margin-right: 0;
     margin-top: 10px;
   }
   .appstoreImg {

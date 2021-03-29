@@ -1,226 +1,289 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.rtl.min.css" integrity="sha384-trxYGD5BY4TyBTvU5H23FalSCYwpLA0vWEvXXGm5eytyztxb+97WzzY+IWDOSbav" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
-    <link href= "css/style.css" rel="stylesheet"/>
-    <link href= "css/style-ar.css" rel="stylesheet"/>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title> Cashin-Arabic</title>
-  </head>
-  <body>
-    <section class="bg-rectangle">
-      <nav class="navbar navbar-expand-lg navbar-light py-3 bg-purple fixed-top">
-        <div class="container d-flex ">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo.svg"/>
-                    <img src="img/chashin.svg"/>
-                </a>
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-            <span class="navbar-toggler-icon"></span>
-          </button> 
-          <div class="collapse navbar-collapse nav-collaps" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 nav-ul" style="margin-left: 50px;">
-              <li class="nav-item" style="padding-right: 20px;">
-                <a class="nav-link active" aria-current="page" href="#">Point of sale</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Feature</a>
-              </li>
-              <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  اللغة 
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item" href="./indexArabic.html"> <span class="flag-icon flag-icon-sa"></span>العربية </a></li>
-                  <li><a class="dropdown-item" href="./index.html"> <span class="flag-icon flag-icon-us"></span>English</a></li>
-                </ul>
-              </div>
-            </ul>
-            <form class="d-flex ms-auto form-btn ">
-              <button class="btn started-btn " type="submit">Get Started</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <div class="container d-flex justify-content-between">
-          <div class="row" style="padding-top: 100px;">
-              <div class="col-lg-6 title-size-mob" style="margin-top:80px; width:462px;color: white;" >
-               <p style=" font-size: 42px; width: 400px;"class="title-size-mob">
-                  Payments made <span style="text-transform: uppercase; font-weight: bold;">easier.</span> 
-               </p>
-               <p class="parag-size-mob">
-                  An innovative digital electronic <span style="color: #FFA800; font-size: 16px;">Pocket POS </span> Integrated with
-                  payment solution allows merchants to accept electronic Payments.
-                   </p>
-               <form class="d-flex form-btn" >
-               <div>
-                   <img src="./img/googleplay.svg"/>
-               </div>
-               <div>
-                  <img src="./img/appstore.svg" style="margin-right: 20px;"/>
-              </div>
-              </form>
-              <div class="d-flex align-items-baseline mt-5 contact-div">
-                <img src="./img/arrow.svg" style="margin-left: 10px;">
-                  <p class="contact-txt">Conctact sales</p>
-              </div>
-              </div>
-              <div  class="col-lg-6 mobile-img" >
-                  <img src="./img/caschimg.png" class="image"/>
-              </div>
-          </div>
-      </div>  
-</section>
-<div class="container d-flex align-self-center justify-content-between logoes" >
-  <div>
-    <img src="./img/instacart.svg">
-  </div>
-  <div>
-    <img src="./img/google.svg">
-  </div>
-  <div>
-    <img src="./img/amazon.svg">
-  </div>
-  <div>
-    <img src="./img/slack.svg">
-  </div>
-  <div>
-    <img src="./img/shopify.svg">
-  </div>
-</div>
-<div class="bg-green">
-    <div class="d-flex justify-content-center align-items-baseline txt-div">
-        <p style="color: #fff;" class="padding-txt">All Clover point-of-sale systems arrive payments-ready</p>
-        <div>
-          <button class="btn started-btn-purple " type="submit">Get Started</button>
-        </div>
-    </div>
-</div>
-<section>
-    <div class="mt-5">
-        <p class="parag"> We’ve got you covered.</p>
-        <div class="d-flex container justify-content-between container-div">
-            <div>
-                <img src="./img/blue.svg">
-                <p class="title">#1 Point of Sale</p>
-                <p class="parag-2">Ranked in 2021 as G2’s leading restaurant point of sale.</p>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-trxYGD5BY4TyBTvU5H23FalSCYwpLA0vWEvXXGm5eytyztxb+97WzzY+IWDOSbav" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style-ar.css" rel="stylesheet" />
+
+  <title> Cashin-Arabic</title>
+</head>
+
+<body>
+  <header class="bg-purple fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <div class="container d-flex ">
+        <a class="navbar-brand" href="#">
+          <svg width="115" height="60" viewBox="0 0 85 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M15 30.0008C13.065 30.001 11.1483 29.6275 9.35499 28.9008C7.04207 27.9633 5.00001 26.4629 3.4143 24.5358C1.82859 22.6087 0.749474 20.3159 0.274986 17.8658C-0.278842 15.009 0.00773311 12.0529 1.09999 9.35575C2.0374 7.04284 3.53782 5.00078 5.46495 3.41507C7.39208 1.82936 9.68485 0.750243 12.135 0.275754C15.1896 -0.317528 18.3531 0.0517906 21.189 1.33275C21.6576 1.64207 22.0603 2.04107 22.374 2.50675C22.8899 3.22985 23.1599 4.0996 23.144 4.98775V5.02075C23.105 5.64807 22.9165 6.25696 22.5943 6.79658C22.272 7.3362 21.8253 7.7909 21.2915 8.12269C20.7577 8.45449 20.1522 8.65377 19.5257 8.70388C18.8992 8.75399 18.2698 8.65348 17.69 8.41075C16.1508 7.78342 14.4406 7.71435 12.8559 8.21552C11.2711 8.71668 9.9116 9.75649 9.01299 11.1548C8.20218 12.2299 7.76026 13.5382 7.75299 14.8848C7.7481 16.2813 8.13772 17.6509 8.87699 18.8358C9.34993 19.6141 9.97631 20.2881 10.718 20.8168C11.467 21.353 12.3151 21.7351 13.213 21.9408C13.7377 22.0618 14.2745 22.1229 14.813 22.1228H15C16.7127 22.1227 18.368 21.5053 19.6625 20.3839C20.9569 19.2624 21.8039 17.712 22.048 16.0168C22.1184 15.5228 22.2712 15.0442 22.5 14.6008C22.7155 14.1802 23.0032 13.8008 23.35 13.4798C23.6919 13.163 24.0896 12.9124 24.523 12.7408C24.9742 12.5629 25.455 12.4723 25.94 12.4738C26.1199 12.474 26.2996 12.4857 26.478 12.5088C27.1575 12.5916 27.8031 12.8525 28.3492 13.2652C28.8954 13.6779 29.3228 14.2277 29.588 14.8588C29.7434 15.2272 29.8445 15.6163 29.888 16.0138C29.8866 16.1932 29.8726 16.3723 29.846 16.5498C29.867 16.4188 29.885 16.2838 29.9 16.1498C29.9185 16.3747 29.9185 16.6008 29.9 16.8258C29.5175 19.9714 28.1475 22.9147 25.9868 25.2327C23.8261 27.5506 20.9861 29.1237 17.875 29.7258C16.9276 29.909 15.9649 30.0011 15 30.0008Z"
+              fill="white" />
+            <path
+              d="M36.602 25.1507C36.602 27.5867 38.156 29.1267 40.34 29.1267C42.244 29.1267 43.49 28.0627 43.882 26.5367H42.51C42.23 27.5027 41.474 28.0487 40.34 28.0487C38.94 28.0487 37.904 27.0547 37.904 25.1507C37.904 23.2747 38.94 22.2807 40.34 22.2807C41.474 22.2807 42.244 22.8687 42.51 23.7927H43.882C43.49 22.1827 42.244 21.2027 40.34 21.2027C38.156 21.2027 36.602 22.7427 36.602 25.1507ZM45.1059 25.1367C45.1059 27.5167 46.6879 29.1267 48.7319 29.1267C50.1459 29.1267 51.1399 28.3987 51.6019 27.5727V29.0007H52.8899V21.3287H51.6019V22.7287C51.1539 21.9307 50.1739 21.2027 48.7459 21.2027C46.6879 21.2027 45.1059 22.7427 45.1059 25.1367ZM51.6019 25.1507C51.6019 26.9567 50.3979 28.0067 48.9979 28.0067C47.5979 28.0067 46.4079 26.9427 46.4079 25.1367C46.4079 23.3307 47.5979 22.3087 48.9979 22.3087C50.3979 22.3087 51.6019 23.3727 51.6019 25.1507ZM60.5588 26.9147C60.5028 24.1707 56.0508 25.1647 56.0508 23.3447C56.0508 22.7287 56.6108 22.2807 57.5488 22.2807C58.5708 22.2807 59.1588 22.8407 59.2148 23.6107H60.4888C60.4048 22.1127 59.2848 21.2027 57.5908 21.2027C55.8828 21.2027 54.7768 22.1687 54.7768 23.3447C54.7768 26.2007 59.3128 25.2067 59.3128 26.9147C59.3128 27.5447 58.7528 28.0487 57.7448 28.0487C56.6668 28.0487 56.0088 27.4887 55.9388 26.7467H54.6228C54.7068 28.1467 55.9668 29.1267 57.7588 29.1267C59.4528 29.1267 60.5588 28.1747 60.5588 26.9147ZM62.3573 29.0007H63.6313V24.7587C63.6313 23.1067 64.5273 22.2947 65.8293 22.2947C67.1173 22.2947 67.9713 23.0927 67.9713 24.6607V29.0007H69.2313V24.4787C69.2313 22.2807 67.8733 21.1887 66.1653 21.1887C65.0873 21.1887 64.1353 21.6227 63.6313 22.4347V18.6407H62.3573V29.0007ZM71.1024 29.0007H73.4964V19.1727H71.1024V29.0007ZM81.6293 19.1727V25.2627L77.6253 19.1727H75.2313V29.0007H77.6253V22.9387L81.6293 29.0007H84.0233V19.1727H81.6293Z"
+              fill="white" />
+          </svg>
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-collaps" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 nav-ul" style="margin-left: 50px;">
+            <li class="nav-item" style="padding-right: 20px;">
+              <a class="nav-link active" aria-current="page" href="#">Point of sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Feature</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center ms-auto form-btn ">
+            <div class="dropdown">
+              <a class="btn btn-secondary" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-globe">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                    </path>
+                  </svg>
+                </span>
+                <span class="d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                  Language
+                </span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="./indexArabic.html">
+                    <span class="flag-icon flag-icon-sa"></span>
+                    <span class="mx-2">العربية</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./index.html">
+                    <span class="flag-icon flag-icon-us"></span>
+                    <span class="mx-2">English</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div>
-              <img src="./img/pink.svg">
-              <p  class="title">Always available</p>
-              <p class="parag-2">24/7 support, top-tier reliability, and full offline mode keep your restaurant moving.</p>
-          </div>
-          <div>
-              <img src="./img/yellow.svg">
-              <p class="title">Stronger performance</p>
-              <p class="parag-2">Independent restaurants using the Toast platform have outperformed their peers by 10-30%.2</p>
-          </div>
-          <div>
-              <img src="./img/green.svg">
-              <p class="title">Low-cost delivery</p>
-              <p class="parag-2">Reduce third-party delivery commissions by up to 80%.</p>
+            <button class="btn started-btn " type="submit">Get Started</button>
           </div>
         </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="bg-rectangle">
+
+    <div class="container d-flex justify-content-between">
+      <div class="row" style="padding-top: 100px;">
+        <div class="col-lg-5 title-size-mob" style="margin-top:80px;color: white;">
+          <p style=" font-size: 4.375rem;" class="title-size-mob">
+            Payments <br> made <span style="text-transform: uppercase; font-weight: bold;">easier.</span>
+          </p>
+          <p class="parag-size-mob mb-4">
+            An innovative digital electronic <span style="color: #FFA800; font-size: 16px;font-weight: 700;">Pocket POS
+            </span>
+            Integrated with
+            payment solution allows merchants to accept electronic Payments.
+          </p>
+          <div class="d-flex form-btn">
+            <div class="app__btn">
+              <img class="w-100 h-100" src="./img/googleplay.svg" />
+            </div>
+            <div class="app__btn __mr_20">
+              <img class="w-100 h-100 __fit_cover" src="./img/appstore.svg" />
+            </div>
+          </div>
+          <div class="d-flex align-items-baseline mt-5 contact-div">
+            <img src="./img/arrow.svg" style="margin-left: 10px;">
+            <p class="contact-txt">Conctact sales</p>
+          </div>
+        </div>
+        <div class="col-lg-7 mobile-img">
+          <img src="./img/caschimg.png" class="image" width="100%" />
+        </div>
+      </div>
     </div>
-</section>
-<section style="margin-top: 100px;">
-  <div class="container ">
+
+  </section>
+
+  <div class="container d-flex align-self-center justify-content-between logoes">
+    <div>
+      <img src="./img/instacart.svg">
+    </div>
+    <div>
+      <img src="./img/google.svg">
+    </div>
+    <div>
+      <img src="./img/amazon.svg">
+    </div>
+    <div>
+      <img src="./img/slack.svg">
+    </div>
+    <div>
+      <img src="./img/shopify.svg">
+    </div>
+  </div>
+
+  <div class="bg-green">
+    <div class="d-flex justify-content-center align-items-baseline txt-div">
+      <p style="color: #fff;" class="padding-txt m-0">All Clover point-of-sale systems arrive payments-ready</p>
+      <div>
+        <button class="btn started-btn-purple " type="submit">Get Started</button>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="mt-5">
+      <p class="parag"> We’ve got you covered.</p>
+      <div class="d-flex container justify-content-between container-div">
+        <div>
+          <img src="./img/blue.svg">
+          <p class="title">#1 Point of Sale</p>
+          <p class="parag-2">Ranked in 2021 as G2’s leading restaurant point of sale.</p>
+        </div>
+        <div>
+          <img src="./img/pink.svg">
+          <p class="title">Always available</p>
+          <p class="parag-2">24/7 support, top-tier reliability, and full offline mode keep your restaurant moving.</p>
+        </div>
+        <div>
+          <img src="./img/yellow.svg">
+          <p class="title">Stronger performance</p>
+          <p class="parag-2">Independent restaurants using the Toast platform have outperformed their peers by 10-30%.2
+          </p>
+        </div>
+        <div>
+          <img src="./img/green.svg">
+          <p class="title">Low-cost delivery</p>
+          <p class="parag-2">Reduce third-party delivery commissions by up to 80%.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="margin-top: 100px;">
+    <div class="container ">
       <p class="why-txt">Why over 40,000 restaurants love <span style="color: #4C1F89;">CashIN</span></p>
       <div class="row align-self-baseline payment-div">
-          <div class="col-md-6 align-self-center">
-              <p style="font-weight: bold;font-size:26px;color: #000;" class="hosted-txt" >Hosted payment page</p>
-              <p style="font-size: 16px; color: #464646;" class="padding-txt">Simplify your integration using Stripe Checkout. It dynamically adapts to your customer’s device and location to increase conversion, and supports coupons, tax rates, and more.</p>
-              <div>
-                <button class="btn started-btn-green " type="submit">Get Started</button>
-              </div>
+        <div class="col-md-6 align-self-center">
+          <p style="font-weight: bold;font-size:26px;color: #000;" class="hosted-txt">Hosted payment page</p>
+          <p style="font-size: 16px; color: #464646;" class="padding-txt">Simplify your integration using Stripe
+            Checkout. It dynamically adapts to your customer’s device and location to increase conversion, and supports
+            coupons, tax rates, and more.</p>
+          <div>
+            <button class="btn started-btn-green " type="submit">Get Started</button>
           </div>
-          <div class="col-md-6 mobile-img">
-              <img src="./img/payment.png" class="image">
-          </div>
+        </div>
+        <div class="col-md-6 mobile-img">
+          <img src="./img/payment.png" class="image">
+        </div>
       </div>
     </div>
-</section>
-<section class="bg-gradiant">
-  <div class="container ">
+  </section>
+  <section class="bg-gradiant">
+    <div class="container ">
       <div class="row align-self-baseline payment-div">
-          <div class="col-md-6 mobile-img">
-              <img src="./img/iPhone 11 Pro.svg" class="iphone">
+        <div class="col-lg-4 col-md-5 mobile-img">
+          <img src="./img/iPhone 11 Pro.svg" class="iphone">
+        </div>
+        <div class="col-lg-6 col-md-6 align-self-center payment-div">
+          <p style="font-weight: bold;font-size:26px;color: #fff;" class="hosted-txt">Hosted payment page</p>
+          <p style="font-size: 16px; color: #fff;" class="padding-txt">Simplify your integration using Stripe Checkout.
+            It dynamically adapts to your customer’s device and location to increase conversion, and supports coupons,
+            tax rates, and more.</p>
+          <div class="d-flex form-btn social-btn">
+            <div class="app__btn">
+              <img class="w-100 h-100" src="./img/googleplay.svg" />
+            </div>
+            <div class="app__btn __ml_20">
+              <img class="w-100 h-100 __fit_cover" src="./img/appstore.svg" />
+            </div>
           </div>
-          <div class="col-md-6 align-self-center payment-div">
-              <p style="font-weight: bold;font-size:26px;color: #fff;" class="hosted-txt">Hosted payment page</p>
-              <p style="font-size: 16px; color: #fff;" class="padding-txt">Simplify your integration using Stripe Checkout. It dynamically adapts to your customer’s device and location to increase conversion, and supports coupons, tax rates, and more.</p>
-             <form class="d-flex form-btn social-btn" >
-                  <div>
-                      <img src="./img/googleplay.svg"/>
-                  </div>
-                  <div>
-                     <img src="./img/appstore.svg"  class="appstoreImg"/>
-                 </div>
-              </form>
-          </div>
+        </div>
       </div>
-</section>
-<section class="contact">
+  </section>
+  <section class="contact">
     <div class="container">
       <div class="row">
-          <div class="col-lg-6 mobile-img">
-              <img src="./img/socialImg.png" class="image">
-          </div>
-          <div class="col-lg-6">
-              <p style="font-size: 26px; font-weight: bold;color: #000;" class="hosted-txt">Schedule Your Free Demo</p>
-              <p style="font-size: 16px; color: #000; opacity: 0.5; text-align: center;" class="padding-txt">We’ll reach out within 24 hours to schedule your demo.</p>
-              <div class="d-flex flex-column">
-                  <input placeholder="First and last name..." type="text">
-                  <input placeholder="Email address.." type="email">
-                  <input placeholder="+966 123456789" type="number">
-                  <input placeholder="Bussniess name..." type="text">
-                  <div class="d-flex mt-4">
-                      <div class="d-flex align-items-center privacy-div">
-                          <img src="./img/privacy.svg" style="align-self: end;">
-                          <p style="font-size: 12px; padding-right: 50px;">Just so you know, we’ll handle your info according to our <span style="color: #3699FF;">privacy statement.</span> </p>
-                      </div>
-                      <div>
-                        <button class="btn submit-btn-purple " type="submit">Submit</button>
-                      </div>
-                  </div>
+        <div class="col-lg-5 mobile-img">
+          <img src="./img/socialImg.png" class="image">
+        </div>
+        <div class="col-lg-5">
+          <p style="font-size: 26px; font-weight: bold;color: #000;" class="hosted-txt">Schedule Your Free Demo</p>
+          <p style="font-size: 16px; color: #000; opacity: 0.5;" class="padding-txt">We’ll reach out
+            within 24 hours to schedule your demo.</p>
+          <div class="d-flex flex-column">
+            <input placeholder="First and last name..." type="text">
+            <input placeholder="Email address.." type="email">
+            <input placeholder="+966 123456789" type="number">
+            <input placeholder="Bussniess name..." type="text">
+            <div class="d-flex align-items-center __submit_contact my-4">
+              <div class="d-flex align-items-center privacy-div">
+                <img src="./img/privacy.svg" style="align-self: end;">
+                <p style="font-size: 12px; padding-left: 50px;">Just so you know, we’ll handle your info according to
+                  our <span style="color: #3699FF;">privacy statement.</span> </p>
               </div>
+              <div>
+                <button class="btn submit-btn-purple " type="submit">Submit</button>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
     </div>
-</section>
-<section>
-    <nav class="navbar navbar-expand-lg navbar-light pt-3 bg-purple ">
-          <div class="container d-flex col-nav ">
-                  <a class="navbar-brand logo-footer" href="#">
-                      <img src="img/logo.svg"/>
-                      <img src="img/chashin.svg"/>
-                  </a>
-              <form class="d-flex ms-auto form-btn tablet-btn">
-                  <ul class="navbar-nav mb-2 mb-lg-0 ul-footer" style="margin-left: 50px;">
-                      <li  >
-                        <a class=" footer-item" aria-current="page" href="#">Privacy Statement</a>
-                      </li>
-                      <li >
-                        <a class=" footer-item" href="#">Do Not Sell My Personal Information </a>
-                      </li>
-                      <li>
-                          <a class=" footer-item" href="#"> Terms of Service</a>
-                        </li>
-                      <li >
-                          <a class=" footer-item" href="#">© 2021 cashIN, Inc.</a>
-                      </li>
-                    </ul>
-              </form>
-          </div>
-        </nav>
-</section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </section>
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light py-3 bg-purple ">
+      <div class="container d-flex col-nav ">
+        <a class="navbar-brand logo-footer" href="#">
+          <svg width="85" height="30" viewBox="0 0 85 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M15 30.0008C13.065 30.001 11.1483 29.6275 9.35499 28.9008C7.04207 27.9633 5.00001 26.4629 3.4143 24.5358C1.82859 22.6087 0.749474 20.3159 0.274986 17.8658C-0.278842 15.009 0.00773311 12.0529 1.09999 9.35575C2.0374 7.04284 3.53782 5.00078 5.46495 3.41507C7.39208 1.82936 9.68485 0.750243 12.135 0.275754C15.1896 -0.317528 18.3531 0.0517906 21.189 1.33275C21.6576 1.64207 22.0603 2.04107 22.374 2.50675C22.8899 3.22985 23.1599 4.0996 23.144 4.98775V5.02075C23.105 5.64807 22.9165 6.25696 22.5943 6.79658C22.272 7.3362 21.8253 7.7909 21.2915 8.12269C20.7577 8.45449 20.1522 8.65377 19.5257 8.70388C18.8992 8.75399 18.2698 8.65348 17.69 8.41075C16.1508 7.78342 14.4406 7.71435 12.8559 8.21552C11.2711 8.71668 9.9116 9.75649 9.01299 11.1548C8.20218 12.2299 7.76026 13.5382 7.75299 14.8848C7.7481 16.2813 8.13772 17.6509 8.87699 18.8358C9.34993 19.6141 9.97631 20.2881 10.718 20.8168C11.467 21.353 12.3151 21.7351 13.213 21.9408C13.7377 22.0618 14.2745 22.1229 14.813 22.1228H15C16.7127 22.1227 18.368 21.5053 19.6625 20.3839C20.9569 19.2624 21.8039 17.712 22.048 16.0168C22.1184 15.5228 22.2712 15.0442 22.5 14.6008C22.7155 14.1802 23.0032 13.8008 23.35 13.4798C23.6919 13.163 24.0896 12.9124 24.523 12.7408C24.9742 12.5629 25.455 12.4723 25.94 12.4738C26.1199 12.474 26.2996 12.4857 26.478 12.5088C27.1575 12.5916 27.8031 12.8525 28.3492 13.2652C28.8954 13.6779 29.3228 14.2277 29.588 14.8588C29.7434 15.2272 29.8445 15.6163 29.888 16.0138C29.8866 16.1932 29.8726 16.3723 29.846 16.5498C29.867 16.4188 29.885 16.2838 29.9 16.1498C29.9185 16.3747 29.9185 16.6008 29.9 16.8258C29.5175 19.9714 28.1475 22.9147 25.9868 25.2327C23.8261 27.5506 20.9861 29.1237 17.875 29.7258C16.9276 29.909 15.9649 30.0011 15 30.0008Z"
+              fill="white" />
+            <path
+              d="M36.602 25.151C36.602 27.587 38.156 29.127 40.34 29.127C42.244 29.127 43.49 28.063 43.882 26.537H42.51C42.23 27.503 41.474 28.049 40.34 28.049C38.94 28.049 37.904 27.055 37.904 25.151C37.904 23.275 38.94 22.281 40.34 22.281C41.474 22.281 42.244 22.869 42.51 23.793H43.882C43.49 22.183 42.244 21.203 40.34 21.203C38.156 21.203 36.602 22.743 36.602 25.151ZM45.1059 25.137C45.1059 27.517 46.6879 29.127 48.7319 29.127C50.1459 29.127 51.1399 28.399 51.6019 27.573V29.001H52.8899V21.329H51.6019V22.729C51.1539 21.931 50.1739 21.203 48.7459 21.203C46.6879 21.203 45.1059 22.743 45.1059 25.137ZM51.6019 25.151C51.6019 26.957 50.3979 28.007 48.9979 28.007C47.5979 28.007 46.4079 26.943 46.4079 25.137C46.4079 23.331 47.5979 22.309 48.9979 22.309C50.3979 22.309 51.6019 23.373 51.6019 25.151ZM60.5588 26.915C60.5028 24.171 56.0508 25.165 56.0508 23.345C56.0508 22.729 56.6108 22.281 57.5488 22.281C58.5708 22.281 59.1588 22.841 59.2148 23.611H60.4888C60.4048 22.113 59.2848 21.203 57.5908 21.203C55.8828 21.203 54.7768 22.169 54.7768 23.345C54.7768 26.201 59.3128 25.207 59.3128 26.915C59.3128 27.545 58.7528 28.049 57.7448 28.049C56.6668 28.049 56.0088 27.489 55.9388 26.747H54.6228C54.7068 28.147 55.9668 29.127 57.7588 29.127C59.4528 29.127 60.5588 28.175 60.5588 26.915ZM62.3573 29.001H63.6313V24.759C63.6313 23.107 64.5273 22.295 65.8293 22.295C67.1173 22.295 67.9713 23.093 67.9713 24.661V29.001H69.2313V24.479C69.2313 22.281 67.8733 21.189 66.1653 21.189C65.0873 21.189 64.1353 21.623 63.6313 22.435V18.641H62.3573V29.001ZM71.1024 29.001H73.4964V19.173H71.1024V29.001ZM81.6293 19.173V25.263L77.6253 19.173H75.2313V29.001H77.6253V22.939L81.6293 29.001H84.0233V19.173H81.6293Z"
+              fill="white" />
+          </svg>
 
-  </body>
+        </a>
+        <form class="d-flex ms-auto form-btn tablet-btn">
+          <ul class="navbar-nav mb-2 mb-lg-0 ul-footer" style="margin-left: 50px;">
+            <li>
+              <a class=" footer-item" aria-current="page" href="#">Privacy Statement</a>
+            </li>
+            <li>
+              <a class=" footer-item" href="#">Do Not Sell My Personal Information </a>
+            </li>
+            <li>
+              <a class=" footer-item" href="#"> Terms of Service</a>
+            </li>
+            <li>
+              <a class=" footer-item" href="#">© 2021 cashIN, Inc.</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </nav>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

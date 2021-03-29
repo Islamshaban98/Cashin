@@ -9,6 +9,9 @@
 .appstoreImg {
     margin-right: 20px;
 }
+.__mr_20 {
+    margin-right: 20px;
+  }
 @media (max-width: 425px){
     .form-btn {
         margin-right: 0% !important;
