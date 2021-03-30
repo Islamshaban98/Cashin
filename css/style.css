@@ -19,6 +19,41 @@ body {
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-align-right'%3E%3Cline x1='21' y1='10' x2='7' y2='10'%3E%3C/line%3E%3Cline x1='21' y1='6' x2='3' y2='6'%3E%3C/line%3E%3Cline x1='21' y1='14' x2='3' y2='14'%3E%3C/line%3E%3Cline x1='21' y1='18' x2='7' y2='18'%3E%3C/line%3E%3C/svg%3E");
 }
+.__icon_box {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 90px;
+  font-size: 40px;
+  padding: 0px;
+  border-radius: 100%;
+  color: #222222;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.__description h3 {
+  margin-bottom: 7px;
+  color: #333162;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  font-size: 22px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.__white{
+  color: #fff !important;
+  text-align: right !important;
+}
+.__font_12rem {
+  font-size: 1.2rem !important;
+}
+.__fit_contain{
+  object-fit: contain;
+}
 .bg-purple {
   background-color: #55118e;
 }
@@ -150,7 +185,7 @@ input {
   color: #fff;
 }
 .__m_20 {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 .__ml_20 {
   margin-left: 20px;
@@ -237,7 +272,7 @@ input {
     flex-direction: column;
   }
   .navbar-collapse div:last-child > div {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
   .btn {
     width: 100%;

@@ -1,28 +1,30 @@
-.bg-rectangle{
-    background: url(../img/rectangleAr.png) no-repeat ;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-position:bottom; 
+.bg-rectangle:lang(ar) {
+  background: url(../img/rectangleAr.png) no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-position: bottom;
 }
-.appstoreImg {
-    margin-right: 20px;
+.appstoreImg:lang(ar) {
+  margin-right: 20px;
 }
-.__mr_20 {
-    margin-right: 20px;
+.__mr_20:lang(ar) {
+  margin-right: 20px;
+}
+@media (max-width: 425px) {
+  .form-btn:lang(ar) {
+    margin-right: 0% !important;
+    align-self: end;
   }
-@media (max-width: 425px){
-    .form-btn {
-        margin-right: 0% !important;
-        align-self: end;
-    }
-    .appstoreImg {
-        margin-right: 0px;
-        margin-top: 20px;
-    }
+  .appstoreImg:lang(ar) {
+    margin-right: 0px;
+    margin-top: 20px;
+  }
 }
-[type=email], [type=number], [type=tel], [type=url] {
-    direction: rtl !important;
+[type="email"]:lang(ar),
+[type="number"]:lang(ar),
+[type="tel"]:lang(ar),
+[type="url"]:lang(ar) {
+  direction: rtl !important;
 }
-
