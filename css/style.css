@@ -95,7 +95,7 @@ body {
   opacity: unset !important;
 }
 .bg-rectangle {
-  background: url(../img/rectangle.png) no-repeat;
+  background: url(../img/herobg.png) no-repeat;
   background-size: cover;
   top: 0;
   left: 0;
@@ -106,8 +106,8 @@ body {
   margin-top: 100px;
 }
 .bg-green {
+  margin-top: 0;
   background-color: #51a669;
-  margin-top: 100px;
 }
 .started-btn-purple {
   background-color: #55118e;
@@ -294,6 +294,9 @@ input {
     display: block;
     width: 100%;
   }
+  .bg-green {
+    margin-top: 85rem;
+  }
   .bg-green div > div {
     display: flex;
     width: 100%;
@@ -431,7 +434,10 @@ input {
   transform: perspective(500px) rotateY(0deg);
 }
 .card-theme .face-theme.front-theme {
-  background: #55118e;
+  box-shadow: 10px 9px 76px -12px rgba(0,0,0,0.1);
+-webkit-box-shadow: 10px 9px 76px -12px rgba(0,0,0,0.1);
+-moz-box-shadow: 10px 9px 76px -12px rgba(0,0,0,0.1);
+  background: #fff;
 	padding: 40px;
 	overflow: hidden;
 	border-radius: 20px;
@@ -440,7 +446,7 @@ input {
 	height: 60px;
 }
 .card-theme .face-theme.front-theme h3 {
-	color: #fff;
+	color: #444;
 	line-height: 40px;
 	margin-top: 10px;
 	font-size: 21px;
@@ -480,7 +486,7 @@ input {
 
 }
 .cat-col .cat-item {
-	background: #fff;
+	/* background: #fff; */
 	height: 200px;
 }
 
