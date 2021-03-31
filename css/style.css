@@ -449,6 +449,7 @@ input {
     padding: 10px 15px 10px 15px;
   }
   .padding-txt {
+    text-align: center;
     padding-inline: 20px;
   }
   .m-0 {
