@@ -1,3 +1,6 @@
+/* body {
+  background-color: rgb(245 245 245 / 40%);
+} */
 .bg-rectangle:lang(ar) {
   background: url(../img/herobg-ar.png) no-repeat;
   background-size: cover;
