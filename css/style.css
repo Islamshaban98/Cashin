@@ -296,7 +296,7 @@ input {
     padding: 0 !important;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .__get_start {
     margin-top: 0 !important;
   }

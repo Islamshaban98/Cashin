@@ -6,7 +6,7 @@
   right: 0;
   background-position: bottom;
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .bg-rectangle {
     background-position: right !important;
   }
