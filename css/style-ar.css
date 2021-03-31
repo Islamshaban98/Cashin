@@ -1,10 +1,13 @@
 .bg-rectangle:lang(ar) {
-  background: url(../img/rectangleAr.png) no-repeat;
+  background: url(../img/herobg-ar.png) no-repeat;
   background-size: cover;
   top: 0;
   left: 0;
   right: 0;
   background-position: bottom;
+}
+.__char {
+  right: 3%;
 }
 .appstoreImg:lang(ar) {
   margin-right: 20px;
