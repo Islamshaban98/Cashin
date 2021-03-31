@@ -6,6 +6,11 @@
   right: 0;
   background-position: bottom;
 }
+@media (max-width: 425px) {
+  .bg-rectangle {
+    background-position: right !important;
+  }
+}
 .__char {
   right: 3%;
 }

@@ -6,6 +6,10 @@ body {
   font-family: Poppins;
   overflow-x: hidden;
 }
+nav,
+.collapse {
+  transition: all 300ms ease-out;
+}
 .__fit_cover {
   object-fit: cover;
 }
