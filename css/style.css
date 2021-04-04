@@ -297,6 +297,12 @@ input {
   }
 }
 @media (max-width: 426px) {
+  .__mobile {
+    flex-direction: column-reverse;
+  }
+  .__mobile div:last-child > img {
+    padding-top: 4rem;
+  }
   .__get_start {
     margin-top: 0 !important;
   }
