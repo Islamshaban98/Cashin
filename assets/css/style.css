@@ -163,21 +163,26 @@ nav,
   border-radius: 12px;
   padding: 10px 20px 10px 20px;
 }
+.bg-rectangle.lazy, 
+.bg-gradiant.lazy, 
+.bg-grad.lazy {
+  background-image: none;
+  background-color: #F1F1FA;
+}
 .bg-gradiant,
 .bg-grad {
-  background-image: url("data:image/svg+xml,%3Csvg width='1561' height='763' viewBox='0 0 1561 763' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0)'%3E%3Cg filter='url(%23filter0_f)'%3E%3Cpath d='M1491 303H685V1003H1491V303Z' fill='%23FFEA9F'/%3E%3C/g%3E%3Cg filter='url(%23filter1_f)'%3E%3Cpath d='M991 402H-5V924H991V402Z' fill='%232AF1FF'/%3E%3C/g%3E%3Cg filter='url(%23filter2_f)'%3E%3Cpath d='M1838 141H1237V1150H1838V141Z' fill='%23FEB033'/%3E%3C/g%3E%3Cg filter='url(%23filter3_f)'%3E%3Cpath d='M1888 -205H1233V270H1888V-205Z' fill='%23FF163C'/%3E%3C/g%3E%3Cg filter='url(%23filter4_f)'%3E%3Cpath d='M469 -77H19V686H469V-77Z' fill='%235509A7'/%3E%3C/g%3E%3Cg filter='url(%23filter5_f)'%3E%3Cpath d='M1096 -164H258V599H1096V-164Z' fill='%23BA2ACE'/%3E%3C/g%3E%3Cg filter='url(%23filter6_f)'%3E%3Cpath d='M279 581H-77V1063H279V581Z' fill='%235A1F62'/%3E%3C/g%3E%3Cmask id='mask0' mask-type='alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='1561' height='763'%3E%3Cpath d='M1561 0H0V763H1561V0Z' fill='%235609A8'/%3E%3C/mask%3E%3Cg mask='url(%23mask0)'%3E%3C/g%3E%3C/g%3E%3Cdefs%3E%3Cfilter id='filter0_f' x='375' y='-7' width='1426' height='1320' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='155' result='effect1_foregroundBlur'/%3E%3C/filter%3E%3Cfilter id='filter1_f' x='-365' y='42' width='1716' height='1242' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='180' result='effect1_foregroundBlur'/%3E%3C/filter%3E%3Cfilter id='filter2_f' x='977' y='-119' width='1121' height='1529' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='130' result='effect1_foregroundBlur'/%3E%3C/filter%3E%3Cfilter id='filter3_f' x='803' y='-635' width='1515' height='1335' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='215' result='effect1_foregroundBlur'/%3E%3C/filter%3E%3Cfilter id='filter4_f' x='-281' y='-377' width='1050' height='1363' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='150' result='effect1_foregroundBlur'/%3E%3C/filter%3E%3Cfilter id='filter5_f' x='-242' y='-664' width='1838' height='1763' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='250' result='effect1_foregroundBlur'/%3E%3C/filter%3E%3Cfilter id='filter6_f' x='-497' y='161' width='1196' height='1322' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/%3E%3CfeGaussianBlur stdDeviation='210' result='effect1_foregroundBlur'/%3E%3C/filter%3E%3CclipPath id='clip0'%3E%3Crect width='1561' height='763' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  /* background: url(../media/images/bg-g.png);
   background-size: cover;
   top: 0;
   left: 0;
-  right: 0;
-  background-position: left;
-  /* background: rgb(131, 58, 180);
+  right: 0; */
+  background: rgb(131, 58, 180);
   background: linear-gradient(
     90deg,
     rgba(131, 58, 180, 1) 0%,
     rgba(151, 29, 253, 1) 50%,
     rgba(255, 149, 0, 1) 100%
-  ); */
+  );
 }
 .iphone {
   margin-top: 50px;
